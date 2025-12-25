@@ -3,11 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Pakistan Visa Application Portal</title>
+
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
+      background: #f4f4f4;
     }
+
     header {
       display: flex;
       align-items: center;
@@ -16,27 +19,33 @@
       padding: 10px 20px;
       color: white;
     }
+
     header img {
       height: 50px;
     }
+
     nav a {
       color: white;
       text-decoration: none;
       margin-left: 15px;
       font-weight: bold;
     }
+
     nav a:hover {
       text-decoration: underline;
     }
+
     .content {
       padding: 20px;
+      background: white;
     }
   </style>
 </head>
+
 <body>
 
 <header>
-  <img src="logo.jpg" alt="Logo">
+  <img src="logo.jpg" alt="Pakistan Visa Logo">
   <nav>
     <a href="#">Home</a>
     <a href="#">Apply Visa</a>
@@ -50,7 +59,7 @@
   <p>This is a demo portal for visa application.</p>
 
   <h3>Sample Photo:</h3>
-  <img src="photo.jpg" width="200">
+  <img src="photo.jpg" width="220">
 </div>
 
 </body>
