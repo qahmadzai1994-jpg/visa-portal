@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pakistan Visa Application Portal</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+body{
+  background:#f2f2f2;
+}
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:10px 14px;
+  background:#ffffff;
+  border-bottom:1px solid #ddd;
+}
+.logo img{
+  height:40px;
+}
+.menu-btn{
+  font-size:26px;
+  cursor:pointer;
+}
+#menu{
+  display:none;
+  background:#ffffff;
+  border-bottom:1px solid #ddd;
+}
+#menu a{
+  display:block;
+  padding:12px;
+  text-decoration:none;
+  color:#000;
+  border-top:1px solid #eee;
+}
+.card{
+  max-width:420px;
+  margin:0 auto;
+  background:#fff;
+  padding:18px;
+  text-align:center;
+}
+.ref{
+  color:#0a7dbd;
+  font-size:18px;
+  font-weight:bold;
+  margin:10px 0;
+}
+.photo img{
+  width:140px;
+  height:180px;
+  object-fit:cover;
+  border:1px solid #ccc;
+  margin:10px 0;
+}
+.label{
+  color:#888;
+  font-size:13px;
+  margin-top:12px;
+}
+.value{
+  font-size:16px;
+  margin-top:3px;
+}
+.logout{
+  max-width:420px;
+  margin:15px auto;
+  background:#0a7dbd;
+  color:#fff;
+  padding:12px;
+  text-align:center;
+  border-radius:3px;
+  cursor:pointer;
+}
+@media print{
+  .menu-btn,
+  #menu,
+  .logout{
+    display:none;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <div class="logo">
+    <img src="logo.jpg" alt="Pakistan Visa">
+  </div>
+  <div class="menu-btn" onclick="toggleMenu()">☰</div>
+</div>
+
+<div id="menu">
+  <a href="#">Home</a>
+  <a href="#">Visa Status</a>
+  <a href="#">Contact</a>
+</div>
+
+<div class="card">
+  <div class="ref">
+    Visa Reference Number<br>
+    88006011480
